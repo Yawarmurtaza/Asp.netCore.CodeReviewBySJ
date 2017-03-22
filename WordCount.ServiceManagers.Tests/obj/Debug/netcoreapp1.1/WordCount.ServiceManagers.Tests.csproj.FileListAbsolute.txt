@@ -1,0 +1,16 @@
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.deps.json
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.runtimeconfig.json
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.runtimeconfig.dev.json
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.dll
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.pdb
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\obj\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.csprojResolveAssemblyReference.cache
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\obj\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.AssemblyInfo.cs
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\obj\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.dll
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\obj\Debug\netcoreapp1.1\WordCount.ServiceManagers.Tests.pdb
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.Model.dll
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.dll
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.pdb
+E:\Development\VS\WordCount\WordCount.ServiceManagers.Tests\bin\Debug\netcoreapp1.1\WordCount.Model.pdb
