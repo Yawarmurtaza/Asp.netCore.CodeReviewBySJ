@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using WordCount.Model;
@@ -61,9 +62,12 @@ namespace WordCount.ServiceManagers.Tests
 
             mockMemory.Setup(m => m.TryGetValue(mockProcessor.Object.ApiPath, out BookText)).Returns(true);
 
+            Mock<IOptions<MyConfig> > mockconfig = new Mock<IOptions<MyConfig>>();
 
-            IWebApiManager manager = new LoyalBooksWebApiParallelManager(mockProcessor.Object, mockMemory.Object,
-                textProcessor);
+            mockconfig.Setup(c => c.Value.HostServerUrl).Returns("HostServerUrl");
+            mockconfig.Setup(c => c.Value.ApiPath).Returns("TargetResource");
+
+            IWebApiManager manager = new LoyalBooksWebApiParallelManager(mockProcessor.Object, mockMemory.Object, textProcessor, mockconfig.Object);
 
             //
             // Act.
@@ -108,7 +112,7 @@ namespace WordCount.ServiceManagers.Tests
             this.mockMemory.Setup(m => m.TryGetValue(BookName, out wordCount)).Returns(true);
 
 
-            IWebApiManager manager = new LoyalBooksWebApiParallelManager(mockProcessor.Object, mockMemory.Object, mockTextProcessor.Object);
+            IWebApiManager manager = new LoyalBooksWebApiParallelManager(mockProcessor.Object, mockMemory.Object, mockTextProcessor.Object, null);
 
 
 

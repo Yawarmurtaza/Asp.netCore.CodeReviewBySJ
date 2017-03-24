@@ -7080,10 +7080,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Development\\VS\\WordCount\\WordCount.Model\\WordCount.Model.csproj",
+      "projectUniqueName": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.Model\\WordCount.Model.csproj",
       "projectName": "WordCount.Model",
-      "projectPath": "E:\\Development\\VS\\WordCount\\WordCount.Model\\WordCount.Model.csproj",
-      "outputPath": "E:\\Development\\VS\\WordCount\\WordCount.Model\\obj\\",
+      "projectPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.Model\\WordCount.Model.csproj",
+      "outputPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.Model\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

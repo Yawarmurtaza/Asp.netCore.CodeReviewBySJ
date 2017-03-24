@@ -5,3 +5,10 @@ E:\Development\VS\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Mo
 E:\Development\VS\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Model.dll
 E:\Development\VS\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Model.pdb
 E:\Development\VS\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Model.csprojResolveAssemblyReference.cache
+E:\GitRepository\CodeReviews\WordCount\WordCount.Model\bin\Debug\netcoreapp1.1\WordCount.Model.deps.json
+E:\GitRepository\CodeReviews\WordCount\WordCount.Model\bin\Debug\netcoreapp1.1\WordCount.Model.dll
+E:\GitRepository\CodeReviews\WordCount\WordCount.Model\bin\Debug\netcoreapp1.1\WordCount.Model.pdb
+E:\GitRepository\CodeReviews\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Model.csprojResolveAssemblyReference.cache
+E:\GitRepository\CodeReviews\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Model.AssemblyInfo.cs
+E:\GitRepository\CodeReviews\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Model.dll
+E:\GitRepository\CodeReviews\WordCount\WordCount.Model\obj\Debug\netcoreapp1.1\WordCount.Model.pdb

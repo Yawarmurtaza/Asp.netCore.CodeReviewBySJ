@@ -3,23 +3,39 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
 using WordCount.Model;
 using WordCount.ServiceManagers.Interfaces;
 
 namespace WordCount.ServiceManagers
 {
+
+    public class MyConfig
+    {
+        public string HostServerUrl { get; set; }
+        public string ApiPath { get; set; }
+    }
+
+
+
     public abstract class BaseLoyalBooksWebApiManager : IWebApiManager
     {
+        private readonly IOptions<MyConfig> config;
         private readonly IWebApiProcessor apiProcessor;
         protected readonly IMemoryCacheWrapper cache;
         protected readonly MemoryCacheEntryOptions cacheEntryOptions;
         private string bookText;
 
-        protected BaseLoyalBooksWebApiManager(IWebApiProcessor apiProcessor, IMemoryCacheWrapper cache)
+        protected BaseLoyalBooksWebApiManager(IWebApiProcessor apiProcessor, IMemoryCacheWrapper cache, IOptions<MyConfig> config)
         {
             this.apiProcessor = apiProcessor;
-            this.apiProcessor.ApiPath = "download/text/";
-            this.apiProcessor.WebLocation = "http://www.loyalbooks.com/";
+            this.config = config;
+            //this.apiProcessor.ApiPath = "download/text/";
+            //this.apiProcessor.WebLocation = "http://www.loyalbooks.com/";
+            this.apiProcessor.ApiPath = this.config.Value.ApiPath;
+            this.apiProcessor.WebLocation = this.config.Value.HostServerUrl;
+
+
             this.cache = cache;
             this.cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromHours(1));
         }

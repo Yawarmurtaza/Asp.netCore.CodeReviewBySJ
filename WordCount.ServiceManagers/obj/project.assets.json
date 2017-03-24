@@ -7387,10 +7387,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj",
+      "projectUniqueName": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj",
       "projectName": "WordCount.ServiceManagers",
-      "projectPath": "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj",
-      "outputPath": "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers\\obj\\",
+      "projectPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj",
+      "outputPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -7398,8 +7398,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\Development\\VS\\WordCount\\WordCount.Model\\WordCount.Model.csproj": {
-              "projectPath": "E:\\Development\\VS\\WordCount\\WordCount.Model\\WordCount.Model.csproj"
+            "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.Model\\WordCount.Model.csproj": {
+              "projectPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.Model\\WordCount.Model.csproj"
             }
           }
         }

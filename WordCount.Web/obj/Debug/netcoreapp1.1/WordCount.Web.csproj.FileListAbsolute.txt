@@ -11,3 +11,16 @@ E:\Development\VS\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Serv
 E:\Development\VS\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.pdb
 E:\Development\VS\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Model.dll
 E:\Development\VS\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Model.pdb
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Web.deps.json
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Web.runtimeconfig.json
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Web.runtimeconfig.dev.json
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Web.dll
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Web.pdb
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Model.dll
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.dll
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.Model.pdb
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\bin\Debug\netcoreapp1.1\WordCount.ServiceManagers.pdb
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\obj\Debug\netcoreapp1.1\WordCount.Web.csprojResolveAssemblyReference.cache
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\obj\Debug\netcoreapp1.1\WordCount.Web.AssemblyInfo.cs
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\obj\Debug\netcoreapp1.1\WordCount.Web.dll
+E:\GitRepository\CodeReviews\WordCount\WordCount.Web\obj\Debug\netcoreapp1.1\WordCount.Web.pdb

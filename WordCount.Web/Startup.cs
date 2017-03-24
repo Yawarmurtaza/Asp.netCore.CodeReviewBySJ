@@ -44,7 +44,10 @@ namespace WordCount.Web
 
             services.AddMemoryCache();
             services.AddMvc();
-            
+
+            // Add our Config object so it can be injected
+            services.Configure<MyConfig>(Configuration);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

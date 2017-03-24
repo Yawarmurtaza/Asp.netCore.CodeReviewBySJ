@@ -36,7 +36,9 @@ namespace WordCount.ServiceManagers.Tests
 
             ITextProcessor textProcessor = new TextProcessor();
 
-            IWebApiManager processor = new LoyalBooksWebApiManager(mockWebApiProcessor.Object, mockCache.Object, textProcessor);
+
+
+            IWebApiManager processor = new LoyalBooksWebApiManager(mockWebApiProcessor.Object, mockCache.Object, textProcessor, null);
 
             //
             // Act.
@@ -69,7 +71,7 @@ namespace WordCount.ServiceManagers.Tests
 
             ITextProcessor textProcessor = new TextProcessor();
 
-            IWebApiManager processor = new LoyalBooksWebApiManager(mockWebApiProcessor.Object, mockCache.Object, textProcessor);
+            IWebApiManager processor = new LoyalBooksWebApiManager(mockWebApiProcessor.Object, mockCache.Object, textProcessor, null);
 
             //
             // Act.

@@ -8816,10 +8816,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers.Tests\\WordCount.ServiceManagers.Tests.csproj",
+      "projectUniqueName": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers.Tests\\WordCount.ServiceManagers.Tests.csproj",
       "projectName": "WordCount.ServiceManagers.Tests",
-      "projectPath": "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers.Tests\\WordCount.ServiceManagers.Tests.csproj",
-      "outputPath": "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers.Tests\\obj\\",
+      "projectPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers.Tests\\WordCount.ServiceManagers.Tests.csproj",
+      "outputPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8827,11 +8827,11 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\Development\\VS\\WordCount\\WordCount.Model\\WordCount.Model.csproj": {
-              "projectPath": "E:\\Development\\VS\\WordCount\\WordCount.Model\\WordCount.Model.csproj"
+            "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.Model\\WordCount.Model.csproj": {
+              "projectPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.Model\\WordCount.Model.csproj"
             },
-            "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj": {
-              "projectPath": "E:\\Development\\VS\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj"
+            "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj": {
+              "projectPath": "E:\\GitRepository\\CodeReviews\\WordCount\\WordCount.ServiceManagers\\WordCount.ServiceManagers.csproj"
             }
           }
         }

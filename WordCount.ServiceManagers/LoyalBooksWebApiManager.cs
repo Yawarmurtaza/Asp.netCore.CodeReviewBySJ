@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
 using WordCount.Model;
 using WordCount.ServiceManagers.Interfaces;
 
@@ -14,7 +15,7 @@ namespace WordCount.ServiceManagers
         private readonly ITextProcessor textProcessor;
         private IEnumerable<WordOccurance> wordCount;
 
-        public LoyalBooksWebApiManager(IWebApiProcessor apiProcessor, IMemoryCacheWrapper cache, ITextProcessor textProcessor) : base(apiProcessor, cache)
+        public LoyalBooksWebApiManager(IWebApiProcessor apiProcessor, IMemoryCacheWrapper cache, ITextProcessor textProcessor, IOptions<MyConfig> config) : base(apiProcessor, cache, config)
         {
             this.textProcessor = textProcessor;
         }
