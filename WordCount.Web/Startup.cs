@@ -24,7 +24,6 @@ namespace WordCount.Web
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
         }
-
         public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -42,12 +41,13 @@ namespace WordCount.Web
             // Add framework services.
             services.AddSession();
 
+            // this comment will be stashed.
             services.AddMemoryCache();
+
             services.AddMvc();
 
             // Add our Config object so it can be injected
             services.Configure<MyConfig>(Configuration);
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -64,6 +64,7 @@ namespace WordCount.Web
             }
             else
             {
+                // navigate to the home / error view in case if the environment is not development.
                 app.UseExceptionHandler("/Home/Error");
             }
 
