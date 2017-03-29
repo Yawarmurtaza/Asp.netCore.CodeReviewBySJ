@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount.Web.Tests", "Word
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount.ServiceManagers.Tests", "WordCount.ServiceManagers.Tests\WordCount.ServiceManagers.Tests.csproj", "{23BB0312-D18F-4793-A94C-E7345BFA36C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount.ConsoleRunner", "WordCount.ConsoleRunner\WordCount.ConsoleRunner.csproj", "{1EBA1D11-C65D-48DE-9DA8-800E52374599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{23BB0312-D18F-4793-A94C-E7345BFA36C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23BB0312-D18F-4793-A94C-E7345BFA36C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23BB0312-D18F-4793-A94C-E7345BFA36C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBA1D11-C65D-48DE-9DA8-800E52374599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBA1D11-C65D-48DE-9DA8-800E52374599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBA1D11-C65D-48DE-9DA8-800E52374599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBA1D11-C65D-48DE-9DA8-800E52374599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +63,6 @@ Global
 		{A91E0040-062C-4DDD-9BE7-99661930C311} = {165993B4-0256-4646-943C-CE36DD5F0A76}
 		{66DEE875-3CFF-4B47-9201-37E6D25FD06A} = {7CC63666-4753-482C-9A2A-026D57EDFA48}
 		{23BB0312-D18F-4793-A94C-E7345BFA36C3} = {7CC63666-4753-482C-9A2A-026D57EDFA48}
+		{1EBA1D11-C65D-48DE-9DA8-800E52374599} = {5F0F5018-2792-416C-B4F0-0AF423C3CE41}
 	EndGlobalSection
 EndGlobal

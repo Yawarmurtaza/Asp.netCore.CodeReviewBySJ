@@ -36,7 +36,7 @@ namespace WordCount.Web
             services.AddTransient<LoyalBooksWebApiParallelManager>();
             services.AddTransient<ITextProcessor, TextProcessor>();
             services.AddTransient<IWebApiProcessor, WebApiProcessor>();
-            services.AddTransient<IMemoryCacheWrapper, MemoryCachWrapper>();
+            services.AddTransient<IMemoryCacheWrapper, MemoryCacheWrapper>();
             services.AddTransient<IServiceProviderWrapper, ServiceProviderWrapper>();
             // Add framework services.
             services.AddSession();

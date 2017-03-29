@@ -3,10 +3,10 @@ using WordCount.ServiceManagers.Interfaces;
 
 namespace WordCount.ServiceManagers
 {
-    public class MemoryCachWrapper : IMemoryCacheWrapper
+    public class MemoryCacheWrapper : IMemoryCacheWrapper
     {
         private readonly IMemoryCache cache;
-        public MemoryCachWrapper(IMemoryCache cache)
+        public MemoryCacheWrapper(IMemoryCache cache)
         {
             this.cache = cache;
         }

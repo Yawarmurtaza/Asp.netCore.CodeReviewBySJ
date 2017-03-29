@@ -9,15 +9,6 @@ using WordCount.ServiceManagers.Interfaces;
 
 namespace WordCount.ServiceManagers
 {
-
-    public class MyConfig
-    {
-        public string HostServerUrl { get; set; }
-        public string ApiPath { get; set; }
-    }
-
-
-
     public abstract class BaseLoyalBooksWebApiManager : IWebApiManager
     {
         private readonly IOptions<MyConfig> config;
