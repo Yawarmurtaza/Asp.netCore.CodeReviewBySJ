@@ -14,8 +14,7 @@ namespace WordCount.ServiceManagers
         private readonly IOptions<MyConfig> config;
         private readonly IWebApiProcessor apiProcessor;
         protected readonly IMemoryCacheWrapper cache;
-        protected readonly MemoryCacheEntryOptions cacheEntryOptions;
-        private string bookText;
+        protected readonly MemoryCacheEntryOptions cacheEntryOptions;        
 
         protected BaseLoyalBooksWebApiManager(IWebApiProcessor apiProcessor, IMemoryCacheWrapper cache, IOptions<MyConfig> config)
         {
@@ -35,6 +34,7 @@ namespace WordCount.ServiceManagers
 
         protected async Task<string> GetBookText(string bookName)
         {
+            private string bookText;
             this.apiProcessor.ApiPath += bookName;
 
             if (!this.cache.TryGetValue(this.apiProcessor.ApiPath, out bookText))
