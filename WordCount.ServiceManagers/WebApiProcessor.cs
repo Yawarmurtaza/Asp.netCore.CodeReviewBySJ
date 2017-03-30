@@ -50,6 +50,7 @@ namespace WordCount.ServiceManagers
 
             if (string.IsNullOrEmpty(this.ApiPath))
             {
+                // use nameof for strongly typed.
                 throw new InvalidOperationException("ApiPath");
             }
         }
