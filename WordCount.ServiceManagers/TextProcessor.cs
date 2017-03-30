@@ -9,6 +9,7 @@ namespace WordCount.ServiceManagers
         public Dictionary<string, int> CountWords(string text)
         {
             Dictionary<string, int> wordOccurence = new Dictionary<string, int>();
+            // can use word boundry regex - google it.
 
             char[] trimChars = new[] { '.', '\'', ',', '-', '?', '"', '/', ';', '!', ':', '(', ')', '_' };
             
